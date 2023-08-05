@@ -1,0 +1,49 @@
+*{
+    font-family: 'Montseratt', sans-serif;
+}
+h1{
+    text-align: center;
+}
+.todos_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.things_todo, .completed_todos, .add_todo{
+    width: 30%;
+}
+.add_todo{
+    display: flex;
+    justify-content: center;
+}
+.completed_todos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.todo_card{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid rgb(50, 135, 168);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(50, 135, 168);
+    color: #e0e002;
+    text-align: center;
+    margin: 50px 0;
+}
+.todo_card p{
+    width: 100%;
+    word-wrap: break-word;
+}
+.todo_card button{
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
